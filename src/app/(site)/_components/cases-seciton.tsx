@@ -9,27 +9,27 @@ import Link from "next/link";
 const cases = [
   {
     title: "Transistor",
-    img: "https://tailwindui.com/img/logos/transistor-logo-gray-400.svg",
+    img: "https://tailwindui.com/img/logos/transistor-logo-gray-900.svg",
   },
   {
-    title: "Mirage",
-    img: "https://tailwindui.com/img/logos/mirage-logo-gray-400.svg",
+    title: "Reform",
+    img: "https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg",
   },
   {
     title: "Tuple",
-    img: "https://tailwindui.com/img/logos/tuple-logo-gray-400.svg",
+    img: "https://tailwindui.com/img/logos/tuple-logo-gray-900.svg",
   },
   {
     title: "Laravel",
-    img: "https://tailwindui.com/img/logos/laravel-logo-gray-400.svg",
+    img: "https://tailwindui.com/img/logos/laravel-logo-gray-900.svg",
   },
   {
-    title: "StaticKit",
-    img: "https://tailwindui.com/img/logos/statickit-logo-gray-400.svg",
+    title: "SavvyCal",
+    img: "https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg",
   },
   {
     title: "Statamic",
-    img: "https://tailwindui.com/img/logos/statamic-logo-gray-400.svg",
+    img: "https://tailwindui.com/img/logos/statamic-logo-gray-900.svg",
   },
 ];
 
@@ -45,14 +45,14 @@ export const CasesSections: React.FC = () => {
               </Badge>
 
               <h2 className="text-3xl font-bold mb-2">
-                Empresas líderes confiam na AppTrack
+                Empresas líderes que confiam na Devlearning
               </h2>
 
               <p className="opacity-80 text-base">
-                A AppTrack é a escolha preferida de empresas de renome em
-                diversos setores. Elas confiam em nossa tecnologia para garantir
-                a segurança e a eficiência de suas frotas. Conheça algumas das
-                grandes marcas que fazem parte dessa jornada de sucesso.
+                Nos orgulhamos de colaborar com empresas líderes que confiam em
+                nossos serviços para treinar e desenvolver suas equipes. Conheça
+                algumas das organizações que estão utilizando o DevLearning para
+                aprimorar suas habilidades em programação.
               </p>
 
               <div className="mt-8">

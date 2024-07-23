@@ -1,27 +1,29 @@
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { Headset, LandPlot, MapPin, Radar } from "lucide-react";
+import { Code, GraduationCap, TrendingUp, MapPinned } from "lucide-react";
 
 const services = [
   {
-    title: "Central 24Hrs",
-    description: "Atendimento humanizado, pronto para te atender",
-    icon: Headset,
+    title: "Cursos Interativos:",
+    description:
+      "Aprenda os fundamentos e técnicas avançadas de programação com nossos cursos detalhados.",
+    icon: Code,
   },
   {
-    title: "Rastreador e Bloqueador",
-    description: "Mantenha seu carro seguro o tempo todo",
-    icon: Radar,
+    title: "Jogo Educativo:",
+    description:
+      "Aprenda jogando. Nosso jogo é projetado para reforçar conceitos de programação de maneira divertida e envolvente.",
+    icon: GraduationCap,
   },
   {
-    title: "Cobertura Nacional",
-    description: "Seu veículo seguro em qualquer lugar do país",
-    icon: LandPlot,
+    title: "Rankeamento:",
+    description: "Sinta-se desafiado a estar sempre no topo e tenha um objetivo para continuar.",
+    icon: TrendingUp,
   },
   {
-    title: "Localização exata",
-    description: "Em ruas, matas, ou galpões, não importa. Nós encontramos",
-    icon: MapPin,
+    title: "Praticidade:",
+    description: "Aprenda de qualquer lugar, a qualquer hora, com nosso aplicativo móvel.",
+    icon: MapPinned,
   },
 ];
 
@@ -40,16 +42,15 @@ export const ServicesSection: React.FC = () => {
           </Badge>
 
           <h2 className="text-3xl font-bold max-w-[400px] md:max-w-[50%] lg:max-w-[40%] mb-2 text text-foreground text-center md:text-start">
-            Soluções completas para a segurança do seu veículo
+            Conheça nossos serviços e soluções para você aprender a programar
           </h2>
           <h3 className="text-lg mb-4 font-semibold text-foreground text-center md:text-start">
-            Tudo o que você precisa em um só lugar
+            Aprender e se divertir nunca foi tão fácil
           </h3>
 
           <p className="opacity-80 text-base max-w-[500px] md:max-w-[80%] lg:max-w-[70%] text-foreground text-center md:text-start">
-            Oferecemos uma ampla gama de serviços para garantir que seus
-            veículos estejam sempre protegidos e monitorados. Descubra nossas
-            soluções e escolha a que melhor se adapta às suas necessidades.
+            No DevLearning, oferecemos uma variedade de serviços projetados para
+            ajudá-lo a atingir seus objetivos de aprendizado de programação:
           </p>
         </div>
 

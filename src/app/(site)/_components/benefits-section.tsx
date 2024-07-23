@@ -1,51 +1,44 @@
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import {
-  Clock,
-  FileText,
-  Fuel,
-  Grid,
-  Package,
-  ShieldCheck,
-} from "lucide-react";
+import { Gamepad2, BookOpenCheck, AlarmClock, Handshake, Cog, FileBadge } from "lucide-react";
 import React from "react";
 
 const benefits = [
   {
-    title: "Otimização nas Entregas",
+    title: "Aprendizado Gamificado:",
     description:
-      "Otimize suas rotas e reduza o tempo de entrega, aumentando ainda mais a sua produtividade",
-    icon: Package,
+      "Transforme seu aprendizado em uma experiência de jogo, tornando o processo mais agradável e motivador.",
+    icon: Gamepad2,
   },
   {
-    title: "Redução de Acidentes",
+    title: "Conteúdo Atualizado:",
     description:
-      "A vida do condutor em primeiro lugar e uma maior redução de custos para a sua empresa",
-    icon: ShieldCheck,
+      "Nossos cursos são constantemente atualizados para refletir as últimas tendências e tecnologias do mercado.",
+    icon: BookOpenCheck,
   },
   {
-    title: "Jornada de Condução",
+    title: "Flexibilidade de Horários:",
     description:
-      "Informações precisas para uma gestão eficiente dentro e fora do horário comercial",
-    icon: Clock,
+      "Estude no seu próprio ritmo e no horário que for mais conveniente para você.",
+    icon: AlarmClock,
   },
   {
-    title: "Controle de Combustível",
+    title: "Comunidade Colaborativa:",
     description:
-      "Economize em abastecimentos e melhore a média de consumo com uma gestão de frotas de alto nível",
-    icon: Fuel,
+      "Junte-se a uma comunidade de alunos e instrutores, trocando conhecimentos e experiências.",
+    icon: Handshake,
   },
   {
-    title: "Acesso Completo a Dados do Veículo",
+    title: "Suporte Personalizado:",
     description:
-      "Tenha informações detalhadas sobre o perfil de condução de cada motorista",
-    icon: Grid,
+      "Receba suporte personalizado de nossos instrutores e monitores, garantindo que você alcance seus objetivos.",
+    icon: Cog,
   },
   {
-    title: "Gestão Completa de Multas de Trânsito",
+    title: "Certificado de Conclusão:",
     description:
-      "Receba e gerencie multas de trânsito de forma eficiente, evitando custos extras",
-    icon: FileText,
+      "Receba um certificado de conclusão ao final de cada curso, validando seus conhecimentos e habilidades.",
+    icon: FileBadge,
   },
 ];
 
@@ -61,15 +54,16 @@ export const BenefitsSection: React.FC = () => {
               Benefícios
             </Badge>
             <h2 className="text-3xl font-bold md:max-w-[430px] mb-2 text-center">
-              Por Que Escolher a AppTrack?
+              Por Que Escolher a Devlearning?
             </h2>
             <h3 className="text-lg text-foreground mb-4 text-center">
-              Segurança, eficiência e economia para sua empresa
+              aprendizado rápido e eficiente com uma plataforma intuitiva e
+              fácil de usar.
             </h3>
             <p className="opacity-80 text-base max-w-[730px] text-center">
-              Descubra como a AppTrack pode transformar a gestão de sua frota
-              com tecnologia de ponta e soluções personalizadas que garantem
-              mais segurança e redução de custos.
+              Descubra como a Devlearning pode ajudar você a atingir seus
+              objetivos de aprendizado de programação. Nossos benefícios são
+              projetados para ajudá-lo a aprender de forma rápida e eficiente.
             </p>
           </header>
 
