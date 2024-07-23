@@ -17,17 +17,16 @@ export function CTASection() {
         <FullLogo />
 
         <h2 className="text-[26px] md:max-w-[50%] leading-[32px] sm:text-3xl md:text-5xl md:leading-[60px] font-bold">
-          Pronto para Proteger Seu Veículo?
+          Pronto para aprender rapidamente com a Devlearning?
         </h2>
 
         <h3 className="mt-4 text-foreground sm:max-w-lg sm:text-xl mb-8">
-          Cadastre-se agora e garanta a segurança do seu patrimônio
+          Cadastre-se agora e garanta um aprendizado de qualidade jogando.
         </h3>
 
         <p className="mt-4 text-muted-foreground max-w-[70%]">
-          Não deixe para depois a segurança dos seus veículos. Entre em contato
-          com a AppTrack e descubra como podemos ajudar a proteger o seu
-          patrimônio e otimizar suas operações.
+          Não deixe para depois, comece agora mesmo a aprender com a DevLearning
+          e se torne um profissional de sucesso.
         </p>
 
         <div className="mt-16 flex items-center !space-x-4 z-10">
