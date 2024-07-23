@@ -5,18 +5,18 @@ import React from "react";
 const stats = [
   {
     title: "Colaboradores dedicados",
-    value: "50",
+    value: "2",
     description:
       "Nossa equipe está sempre pronta para oferecer suporte e inovação.",
   },
   {
-    title: "Pontos de atendimento",
-    value: "129",
+    title: "Tempo de aprendizado",
+    value: "200",
     description:
-      "Estamos presentes em diversos locais para melhor atender você.",
+      "Cursos com várias horas para investir no seu aprendizado.",
   },
   {
-    title: "Empresas usam AppTrack",
+    title: "Empresas usam Devlearning",
     value: "1.4K",
     description:
       "Nossa expertise comprovada pela confiança de grandes empresas.",
@@ -35,7 +35,7 @@ export const StatsSection: React.FC = () => {
             Números que falam por nós
           </h2>
           <h3 className="text-center text-lg mb-4 text-foreground font-medium">
-            Líder em segurança e eficiência no rastreio de veículos
+            Líder em inovação e qualidade no segmento. Ensinando e aprendendo juntos.
           </h3>
         </div>
         <div className="grid md:grid-cols-3 gap-6">

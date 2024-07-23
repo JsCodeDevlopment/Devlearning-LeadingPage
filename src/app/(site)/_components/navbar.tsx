@@ -112,7 +112,7 @@ export const Navbar: React.FC = () => {
                   </ul>
                 </div>
                 <SheetFooter className="mt-12">
-                  {/* <Button
+                  <Button
                     asChild
                     variant="outline"
                     className="px-6 gap-2 items-center justify-center w-full"
@@ -121,7 +121,7 @@ export const Navbar: React.FC = () => {
                       Login
                       <ArrowRightIcon className="size-4" />
                     </Link>
-                  </Button> */}
+                  </Button>
                 </SheetFooter>
               </SheetContent>
             </Sheet>

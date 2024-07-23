@@ -7,6 +7,7 @@ import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { HeroTitle } from "./hero-title";
 
 export const HeroScroll: React.FC = () => {
   return (
@@ -14,14 +15,11 @@ export const HeroScroll: React.FC = () => {
       <ContainerScrollAnimation
         titleComponent={
           <>
-            <div className="mx-auto md:max-w-[880px] font-normal text-center text-4xl md:text-6xl md:leading-[68px]">
-              <h1 className="font-bold tracking-tight text-2xl min-[500px]:text-3xl sm:text-4xl md:max-w-[70%] text-center mx-auto max-w-96 xl:text-6xl">
-                Proteja seu veículo e garanta tranquilidade
-              </h1>
-            </div>
+            <HeroTitle />
             <div className="mx-auto">
               <p className="text-base sm:text-lg sm:leading-8 mt-4 text-center text-foreground max-w-96 mx-auto">
-                Rastreie, bloqueie e controle seus veículos de qualquer lugar
+                Chegou a hora de aprender programação, faça as atividades e
+                aprenda rapidamente com a nossa plataforma.
               </p>
             </div>
             <div className="flex flex-col items-center space-y-2 mt-10">
@@ -36,7 +34,7 @@ export const HeroScroll: React.FC = () => {
         }
       >
         <Image
-          src="/mock-dashboard-dark.webp"
+          src="/mock-dashboard-dark.png"
           alt="hero"
           height={720}
           width={1400}
@@ -44,7 +42,7 @@ export const HeroScroll: React.FC = () => {
           draggable={false}
         />
         <Image
-          src="/mock-dashboard-light.webp"
+          src="/mock-dashboard-light.png"
           alt="hero"
           height={720}
           width={1400}
